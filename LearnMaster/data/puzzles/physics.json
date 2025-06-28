@@ -1,0 +1,58 @@
+{
+  "puzzles": [
+    {
+      "id": "phys_novice_1",
+      "question": "A ball is dropped from a height of 20 meters. How long does it take to reach the ground? (g = 10 m/s²)",
+      "options": [
+        {"label": "A", "text": "1 second"},
+        {"label": "B", "text": "2 seconds"},
+        {"label": "C", "text": "3 seconds"},
+        {"label": "D", "text": "4 seconds"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "<p><strong>Correct Answer:</strong> B) 2 seconds</p><p><strong>Step-by-step solution:</strong></p><p>1. Using kinematic equation: h = ut + ½gt²</p><p>2. Initial velocity u = 0 (dropped from rest)</p><p>3. Height h = 20 m, g = 10 m/s²</p><p>4. 20 = 0 + ½(10)t²</p><p>5. 20 = 5t²</p><p>6. t² = 4, so t = 2 seconds</p>",
+      "hints": [
+        "Use the kinematic equation: h = ut + ½gt² where u is initial velocity",
+        "Since the ball is dropped, initial velocity u = 0"
+      ],
+      "difficulty": "novice",
+      "subject": "physics"
+    },
+    {
+      "id": "phys_adept_1",
+      "question": "A 2 kg object moves in a circle of radius 5 m with constant speed 10 m/s. What is the centripetal force?",
+      "options": [
+        {"label": "A", "text": "20 N"},
+        {"label": "B", "text": "40 N"},
+        {"label": "C", "text": "100 N"},
+        {"label": "D", "text": "200 N"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "<p><strong>Correct Answer:</strong> B) 40 N</p><p><strong>Step-by-step solution:</strong></p><p>1. Centripetal force F = mv²/r</p><p>2. Given: m = 2 kg, v = 10 m/s, r = 5 m</p><p>3. F = (2)(10)²/5 = (2)(100)/5 = 200/5 = 40 N</p>",
+      "hints": [
+        "Use the centripetal force formula: F = mv²/r",
+        "Make sure to square the velocity in the calculation"
+      ],
+      "difficulty": "adept",
+      "subject": "physics"
+    },
+    {
+      "id": "phys_expert_1",
+      "question": "Two identical charges of +3μC are separated by 30 cm in air. What is the electrostatic force between them? (k = 9×10⁹ N⋅m²/C²)",
+      "options": [
+        {"label": "A", "text": "0.9 N"},
+        {"label": "B", "text": "2.7 N"},
+        {"label": "C", "text": "8.1 N"},
+        {"label": "D", "text": "27 N"}
+      ],
+      "correctAnswer": "A",
+      "explanation": "<p><strong>Correct Answer:</strong> A) 0.9 N</p><p><strong>Step-by-step solution:</strong></p><p>1. Using Coulomb's law: F = kq₁q₂/r²</p><p>2. q₁ = q₂ = 3×10⁻⁶ C, r = 0.3 m</p><p>3. F = (9×10⁹)(3×10⁻⁶)(3×10⁻⁶)/(0.3)²</p><p>4. F = (9×10⁹)(9×10⁻¹²)/0.09</p><p>5. F = 81×10⁻³/0.09 = 0.9 N</p>",
+      "hints": [
+        "Use Coulomb's law: F = kq₁q₂/r²",
+        "Convert all units properly: μC to C and cm to m"
+      ],
+      "difficulty": "expert",
+      "subject": "physics"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "puzzles": [
+    {
+      "id": "cs_novice_1",
+      "question": "What is the time complexity of binary search algorithm?",
+      "options": [
+        {"label": "A", "text": "O(n)"},
+        {"label": "B", "text": "O(log n)"},
+        {"label": "C", "text": "O(n²)"},
+        {"label": "D", "text": "O(n log n)"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "<p><strong>Correct Answer:</strong> B) O(log n)</p><p><strong>Explanation:</strong></p><p>Binary search works by repeatedly dividing the search interval in half. In each step, it eliminates half of the remaining elements. This results in a logarithmic time complexity of O(log n), where n is the number of elements in the sorted array.</p>",
+      "hints": [
+        "Think about how binary search eliminates elements in each step",
+        "Consider how many times you can divide n by 2 until you reach 1"
+      ],
+      "difficulty": "novice",
+      "subject": "compsci"
+    },
+    {
+      "id": "cs_adept_1",
+      "question": "In a binary tree with n nodes, what is the maximum possible height?",
+      "options": [
+        {"label": "A", "text": "n-1"},
+        {"label": "B", "text": "log₂(n)"},
+        {"label": "C", "text": "n/2"},
+        {"label": "D", "text": "2n"}
+      ],
+      "correctAnswer": "A",
+      "explanation": "<p><strong>Correct Answer:</strong> A) n-1</p><p><strong>Step-by-step explanation:</strong></p><p>1. Maximum height occurs when the tree is completely skewed (like a linked list)</p><p>2. In a skewed tree, each level has only one node except the root</p><p>3. With n nodes, you can have at most n-1 edges</p><p>4. Height is the number of edges from root to deepest leaf = n-1</p>",
+      "hints": [
+        "Think about the worst-case scenario for tree height",
+        "Consider a tree that looks like a linked list"
+      ],
+      "difficulty": "adept",
+      "subject": "compsci"
+    },
+    {
+      "id": "cs_expert_1",
+      "question": "What is the space complexity of merge sort algorithm?",
+      "options": [
+        {"label": "A", "text": "O(1)"},
+        {"label": "B", "text": "O(log n)"},
+        {"label": "C", "text": "O(n)"},
+        {"label": "D", "text": "O(n log n)"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "<p><strong>Correct Answer:</strong> C) O(n)</p><p><strong>Step-by-step explanation:</strong></p><p>1. Merge sort requires additional space for the merge operation</p><p>2. During merging, we need temporary arrays to store the divided subarrays</p><p>3. The total additional space needed is proportional to the input size</p><p>4. Although recursion uses O(log n) stack space, the auxiliary space for merging dominates</p><p>5. Total space complexity = O(n)</p>",
+      "hints": [
+        "Consider the space needed for the merge operation",
+        "Think about the temporary arrays created during merging"
+      ],
+      "difficulty": "expert",
+      "subject": "compsci"
+    }
+  ]
+}

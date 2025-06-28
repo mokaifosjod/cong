@@ -1,0 +1,244 @@
+{
+  "subjects": [
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "description": "Quantitative Aptitude & Problem Solving",
+      "icon": "calculator",
+      "gradient": "bg-gradient-to-br from-blue-50 to-indigo-100 border-blue-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "physics",
+      "name": "Physics",
+      "description": "Mechanics, Thermodynamics & Modern Physics",
+      "icon": "zap",
+      "gradient": "bg-gradient-to-br from-purple-50 to-pink-100 border-purple-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "chemistry",
+      "name": "Chemistry",
+      "description": "Organic, Inorganic & Physical Chemistry",
+      "icon": "flask",
+      "gradient": "bg-gradient-to-br from-green-50 to-emerald-100 border-green-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "biology",
+      "name": "Biology",
+      "description": "Cell Biology, Genetics & Ecology",
+      "icon": "dna",
+      "gradient": "bg-gradient-to-br from-lime-50 to-green-100 border-lime-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "history",
+      "name": "History",
+      "description": "Ancient, Medieval & Modern India",
+      "icon": "book",
+      "gradient": "bg-gradient-to-br from-amber-50 to-yellow-100 border-amber-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "geography",
+      "name": "Geography",
+      "description": "Indian & World Geography",
+      "icon": "globe",
+      "gradient": "bg-gradient-to-br from-teal-50 to-cyan-100 border-teal-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "polity",
+      "name": "Indian Polity",
+      "description": "Constitution & Governance",
+      "icon": "scales",
+      "gradient": "bg-gradient-to-br from-indigo-50 to-blue-100 border-indigo-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "economics",
+      "name": "Economics",
+      "description": "Indian Economy & Financial Systems",
+      "icon": "trending-up",
+      "gradient": "bg-gradient-to-br from-emerald-50 to-teal-100 border-emerald-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "general-science",
+      "name": "General Science",
+      "description": "Basic Scientific Concepts",
+      "icon": "atom",
+      "gradient": "bg-gradient-to-br from-cyan-50 to-blue-100 border-cyan-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "art-culture",
+      "name": "Art & Culture",
+      "description": "Indian Heritage & Traditions",
+      "icon": "palette",
+      "gradient": "bg-gradient-to-br from-pink-50 to-rose-100 border-pink-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "environment",
+      "name": "Environment",
+      "description": "Ecology & Climate Change",
+      "icon": "leaf",
+      "gradient": "bg-gradient-to-br from-green-50 to-lime-100 border-green-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "current-affairs",
+      "name": "Current Affairs",
+      "description": "Recent Developments & News",
+      "icon": "newspaper",
+      "gradient": "bg-gradient-to-br from-slate-50 to-gray-100 border-slate-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "logical-reasoning",
+      "name": "Logical Reasoning",
+      "description": "Analytical & Logical Problem Solving",
+      "icon": "brain",
+      "gradient": "bg-gradient-to-br from-rose-50 to-pink-100 border-rose-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "verbal-ability",
+      "name": "Verbal Ability",
+      "description": "English Grammar & Comprehension",
+      "icon": "type",
+      "gradient": "bg-gradient-to-br from-violet-50 to-purple-100 border-violet-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "data-interpretation",
+      "name": "Data Interpretation",
+      "description": "Charts, Graphs & Statistical Analysis",
+      "icon": "bar-chart",
+      "gradient": "bg-gradient-to-br from-orange-50 to-amber-100 border-orange-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "general-knowledge",
+      "name": "General Knowledge",
+      "description": "Static GK & Facts",
+      "icon": "lightbulb",
+      "gradient": "bg-gradient-to-br from-yellow-50 to-orange-100 border-yellow-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "computer-awareness",
+      "name": "Computer Awareness",
+      "description": "Basic Computing Concepts",
+      "icon": "monitor",
+      "gradient": "bg-gradient-to-br from-gray-50 to-slate-100 border-gray-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "psychology",
+      "name": "Psychology",
+      "description": "Basic Psychological Concepts",
+      "icon": "heart",
+      "gradient": "bg-gradient-to-br from-red-50 to-pink-100 border-red-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "sociology",
+      "name": "Sociology",
+      "description": "Social Systems & Structures",
+      "icon": "users",
+      "gradient": "bg-gradient-to-br from-blue-50 to-cyan-100 border-blue-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "philosophy",
+      "name": "Philosophy",
+      "description": "Philosophical Concepts & Ethics",
+      "icon": "feather",
+      "gradient": "bg-gradient-to-br from-purple-50 to-indigo-100 border-purple-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "ethics",
+      "name": "Ethics & Integrity",
+      "description": "Moral Philosophy for UPSC",
+      "icon": "shield",
+      "gradient": "bg-gradient-to-br from-emerald-50 to-green-100 border-emerald-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "disaster-management",
+      "name": "Disaster Management",
+      "description": "Risk Reduction & Emergency Response",
+      "icon": "alert-triangle",
+      "gradient": "bg-gradient-to-br from-red-50 to-orange-100 border-red-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "internal-security",
+      "name": "Internal Security",
+      "description": "Security Challenges & Policies",
+      "icon": "lock",
+      "gradient": "bg-gradient-to-br from-gray-50 to-zinc-100 border-gray-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "international-relations",
+      "name": "International Relations",
+      "description": "Global Politics & Diplomacy",
+      "icon": "globe2",
+      "gradient": "bg-gradient-to-br from-sky-50 to-blue-100 border-sky-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "agriculture",
+      "name": "Agriculture",
+      "description": "Farming Techniques & Rural Development",
+      "icon": "wheat",
+      "gradient": "bg-gradient-to-br from-lime-50 to-green-100 border-lime-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "banking-finance",
+      "name": "Banking & Finance",
+      "description": "Financial Systems & Markets",
+      "icon": "banknote",
+      "gradient": "bg-gradient-to-br from-emerald-50 to-teal-100 border-emerald-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "marketing",
+      "name": "Marketing Aptitude",
+      "description": "Consumer Behavior & Strategies",
+      "icon": "target",
+      "gradient": "bg-gradient-to-br from-pink-50 to-rose-100 border-pink-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "teaching",
+      "name": "Teaching Aptitude",
+      "description": "Educational Psychology & Methods",
+      "icon": "graduation-cap",
+      "gradient": "bg-gradient-to-br from-indigo-50 to-purple-100 border-indigo-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "research",
+      "name": "Research Aptitude",
+      "description": "Research Methodology & Analysis",
+      "icon": "search",
+      "gradient": "bg-gradient-to-br from-violet-50 to-purple-100 border-violet-200",
+      "totalPuzzles": 100
+    },
+    {
+      "id": "compsci",
+      "name": "CompSci",
+      "description": "DSA, Programming & System Design",
+      "icon": "code",
+      "gradient": "bg-gradient-to-br from-orange-50 to-red-100 border-orange-200",
+      "totalPuzzles": 100
+    }
+  ]
+}

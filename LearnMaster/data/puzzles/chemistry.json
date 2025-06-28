@@ -1,0 +1,58 @@
+{
+  "puzzles": [
+    {
+      "id": "chem_novice_1",
+      "question": "What is the molecular formula of water?",
+      "options": [
+        {"label": "A", "text": "H₂O"},
+        {"label": "B", "text": "HO₂"},
+        {"label": "C", "text": "H₃O"},
+        {"label": "D", "text": "H₂O₂"}
+      ],
+      "correctAnswer": "A",
+      "explanation": "<p><strong>Correct Answer:</strong> A) H₂O</p><p><strong>Explanation:</strong></p><p>Water consists of 2 hydrogen atoms and 1 oxygen atom, giving the molecular formula H₂O. This is one of the most fundamental compounds in chemistry.</p>",
+      "hints": [
+        "Water contains hydrogen and oxygen atoms",
+        "Think about the simplest compound of hydrogen and oxygen"
+      ],
+      "difficulty": "novice",
+      "subject": "chemistry"
+    },
+    {
+      "id": "chem_adept_1",
+      "question": "In the reaction: 2Al + 3CuSO₄ → Al₂(SO₄)₃ + 3Cu, how many moles of copper are produced from 4 moles of aluminum?",
+      "options": [
+        {"label": "A", "text": "4 moles"},
+        {"label": "B", "text": "6 moles"},
+        {"label": "C", "text": "8 moles"},
+        {"label": "D", "text": "12 moles"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "<p><strong>Correct Answer:</strong> B) 6 moles</p><p><strong>Step-by-step solution:</strong></p><p>1. From the balanced equation: 2Al produces 3Cu</p><p>2. Ratio: 2 moles Al : 3 moles Cu</p><p>3. For 4 moles Al: (4 moles Al) × (3 moles Cu/2 moles Al) = 6 moles Cu</p>",
+      "hints": [
+        "Look at the stoichiometric coefficients in the balanced equation",
+        "Set up a proportion using the mole ratio from the equation"
+      ],
+      "difficulty": "adept",
+      "subject": "chemistry"
+    },
+    {
+      "id": "chem_expert_1",
+      "question": "Calculate the pH of a 0.1 M solution of acetic acid (CH₃COOH) given that Ka = 1.8×10⁻⁵.",
+      "options": [
+        {"label": "A", "text": "2.37"},
+        {"label": "B", "text": "2.87"},
+        {"label": "C", "text": "3.37"},
+        {"label": "D", "text": "1.87"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "<p><strong>Correct Answer:</strong> B) 2.87</p><p><strong>Step-by-step solution:</strong></p><p>1. For weak acid: Ka = [H⁺][A⁻]/[HA]</p><p>2. Since [H⁺] = [A⁻] = x and [HA] ≈ 0.1 M</p><p>3. 1.8×10⁻⁵ = x²/0.1</p><p>4. x² = 1.8×10⁻⁶</p><p>5. x = [H⁺] = 1.34×10⁻³ M</p><p>6. pH = -log(1.34×10⁻³) = 2.87</p>",
+      "hints": [
+        "Use the weak acid dissociation formula with the given Ka value",
+        "For weak acids, assume [H⁺] = [A⁻] and [HA] remains approximately equal to initial concentration"
+      ],
+      "difficulty": "expert",
+      "subject": "chemistry"
+    }
+  ]
+}

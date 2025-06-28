@@ -1,0 +1,97 @@
+You are 'Kaif With Your Mind', a revolutionary, web-based, puzzle-based learning system. This is not just an app; it's a 'brain gym' – a powerful fusion of logic, gamification, and learning designed for school/college students, competitive exam aspirants (JEE, NEET, UPSC, SSC), and coders. Your core mission is to provide an intelligent MCQ puzzle practice platform that forces users to think, not guess.
+
+The entire application, including its highly sophisticated front-end and any necessary light-weight back-end logic for data serving, must be developed, hosted, and run entirely on Replit. Prioritize an exceptionally responsive, blazingly fast Single Page Application (SPA) experience that feels like a premium, top-tier product from a major tech company.
+
+1. Core Concepts & Vision
+App Core Concept: An intelligent MCQ puzzle practice platform where every puzzle demands analytical thinking and strategic problem-solving.
+Big-Company UI/UX: The user interface must exude polish, professionalism, and modern aesthetics. Think fluid animations, subtle micro-interactions, sophisticated color palettes, and a highly intuitive layout. The design should make users feel they are using a premium, professionally developed software.
+User Flow: Seamless navigation from the homepage to subject-specific puzzle sections, and now, to the new blog section.
+2. Advanced User Interface Design & Structure
+Dashboard / Home Page (Separate File/Component):
+
+This is the initial landing view after the app loads.
+Subjects Grid UI: Implement the YouTube-like grid of subject boxes. The existing "box-box" structure is perfect, but the visual "look" and "upbringing" must be dramatically enhanced. Think sleek, gradient fills, subtle hover effects, clean typography, and a visually appealing arrangement that feels premium.
+Color Palette: Use a sophisticated, modern color scheme (e.g., deep blues, muted purples, vibrant but not overwhelming accents) that conveys intelligence and clarity. Avoid overly bright or childish colors.
+Call to Action: Clear calls to action to dive into subjects or explore the blog.
+Separation: This entire Dashboard/Homepage component should reside in its own dedicated file/component (e.g., Dashboard.js or HomePage.jsx) for modularity.
+Puzzle Section UI:
+
+Clean & Focused: Minimal distractions. The puzzle question, options, and controls should be the focal point.
+Progress Indicators: Visually engaging progress bar or indicator showing how many puzzles solved in the current session/difficulty.
+Feedback: Instant, satisfying visual feedback for correct/incorrect answers (e.g., subtle green/red highlights, small celebratory animations).
+New: Blog Section UI (Separate File/Component):
+
+A dedicated section accessible from the main navigation (e.g., a "Blog" link in the header/footer).
+Article Listing: Display a clean grid or list of blog post cards, each with a title, a short excerpt, and an appealing thumbnail/hero image.
+Individual Article View: When a user clicks on an article, it should open in a dedicated, clean, and readable view. Content should be well-formatted (paragraphs, headings, lists, images).
+Simple Pagination/Loading: If many articles, implement basic pagination or "Load More" functionality.
+Separation: This entire Blog section (listing and individual article view) should reside in its own dedicated file/component (e.g., Blog.js, ArticleDetail.jsx).
+Global Navigation: A clean, persistent header or side-navigation that allows users to easily switch between the Dashboard (Subjects Grid), Puzzle Section (when active), and the new Blog Section.
+
+Mobile-First, Responsive, and Fluid: The design must adapt flawlessly to all screen sizes (phones, tablets, desktops). Utilize TailwindCSS extensively for this. Big, readable fonts and a spacious layout are crucial for user comfort, especially on mobile. The UX should be so smooth and fast that it compels users to solve "10 more puzzles!" without effort.
+
+3. Detailed Features & Functionality
+Subject & Puzzle Content:
+
+30 Distinct Subjects/Categories:
+Mathematics (Quantitative Aptitude)
+Physics
+Chemistry
+Biology
+History (Ancient, Medieval, Modern India)
+Geography (Indian & World)
+Indian Polity & Constitution
+Indian Economy
+General Science (Basic Concepts)
+Art & Culture
+Environment & Ecology
+Current Affairs
+Logical Reasoning
+Verbal Ability & English Grammar
+Data Interpretation
+General Knowledge (Static GK)
+Computer Awareness (General)
+Psychology (Basic Concepts)
+Sociology (Basic Concepts)
+Philosophy (Basic Concepts)
+Ethics & Integrity (for UPSC)
+Disaster Management
+Internal Security
+International Relations
+Agriculture
+Banking & Finance
+Marketing Aptitude
+Teaching Aptitude
+Research Aptitude
+CompSci (A dedicated box containing: C Language, Data Structures & Algorithms, Python, Database Management Systems, Operating Systems, Computer Networks, Java, Web Development Basics (HTML/CSS/JS concepts))
+Puzzle Quantity: Each subject will initially contain 100 carefully selected MCQ puzzles (total 3000 puzzles).
+Difficulty Levels: Puzzles within each subject must be explicitly categorized using professional, non-color-coded indicators: Novice, Adept, Expert, Master. Users should be able to select their desired difficulty.
+Seamless Puzzle Practice Flow:
+
+Automatic Next Puzzle Loading: When a user answers a puzzle correctly, the next puzzle must load instantly and automatically with a smooth transition, without any screen refresh. This is critical for the "no reload, SPA-style" experience (achieved via JavaScript Fetch API / Async/Await).
+Options & Selection: Clear display of multiple-choice options. Intuitive selection mechanism.
+Skip Button: A prominent "Skip" button to move to the next puzzle without answering.
+Chance Counter: Implement a "Chance Counter" (e.g., 3 chances) per puzzle. This counter dynamically updates and decreases with each incorrect attempt.
+Solution & Explanation Display: If the user answers incorrectly 3 times, the correct solution and a clear, concise, detailed explanation for that puzzle must automatically appear. This explanation should be well-formatted and easy to digest.
+Progressive Hint System: A "Hint" button will reveal a single, specific hint per click. Each puzzle will have 1-2 pre-defined hints available, revealed one by one. These hints are designed to guide, not give away the answer directly.
+User Persistence (Local Device Focus):
+
+"Star/Favorite" Feature: Allow users to "star" their favorite subjects. Starred subjects must consistently appear at the top of the homepage grid. This preference must be saved locally using localStorage, ensuring it persists across browser sessions for the user's specific device.
+Save Progress Level: For each subject and each difficulty level (Novice, Adept, Expert, Master), the app must save the last puzzle the user was on using localStorage. When the user returns to a subject, they should be able to resume precisely from where they left off at their last practiced difficulty.
+New: Blog Content & Structure:
+
+The blog will contain a curated set of articles related to subjects, study tips, exam strategies, etc.
+Content Storage: Blog article content (title, author, date, main body text, images) will be stored in structured JSON files within a dedicated blog/ directory in the Replit project (e.g., data/blog/article1.json).
+SEO-Friendly URLs: While fully dynamic SEO is limited on Replit, ensure blog article URLs are clean (e.g., /blog/article-title-slug) for better indexability.
+4. Replit-Specific Implementation Requirements
+Data Storage (Internal to Replit):
+All puzzle data (questions, options, correct answers, explanations, hints, difficulty levels) for all 3000 puzzles will be stored in structured JSON files within the Replit project.
+Blog article content will also be stored in structured JSON files within a dedicated directory.
+Implement a clear, logical file structure for these JSON files (e.g., data/mathematics/easy.json, data/compsci/dsa/hard.json, data/blog/how-to-crack-jee.json) to easily organize and access the content.
+Backend for Data Serving (Minimal & Integrated):
+A lightweight Node.js (Express.js) backend will be integrated within the same Replit project.
+Its primary function is to act as a simple API to serve these static JSON puzzle files AND blog content files to the front-end (e.g., via endpoints like /api/puzzles/mathematics/easy, /api/blog/articles).
+No Server-Side User Accounts/Admin Panel (Initial Phase):
+To keep the project feasible and efficient on Replit, there will be no complex user registration, login, or server-side user profiles. All user progress and preferences will be managed via localStorage.
+There will be no dedicated, dynamic admin panel interface. Adding, updating, or deleting puzzles and blog articles will be a manual process by directly editing the corresponding JSON files in the Replit project.
+Future Scalability (Understood): While the current scope targets Replit, acknowledge that scaling this application with features like true multi-user progress, global leaderboards, complex analytics, comments on blog posts, or a full CMS would necessitate a transition to a dedicated database (e.g., Supabase, Firebase) and more robust external hosting.

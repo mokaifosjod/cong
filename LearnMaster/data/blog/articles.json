@@ -1,0 +1,71 @@
+{
+  "articles": [
+    {
+      "id": "jee-main-2024-strategy",
+      "title": "Complete JEE Main 2024 Preparation Strategy: A Comprehensive Guide",
+      "excerpt": "Master the art of JEE Main preparation with our detailed roadmap covering Mathematics, Physics, and Chemistry. Learn effective time management, practice strategies, and last-minute tips from top scorers.",
+      "content": "<p class=\"text-xl text-gray-700 mb-6\">Preparing for JEE Main requires a systematic approach, consistent effort, and strategic planning. This comprehensive guide will help you navigate through the preparation journey effectively.</p><h2 class=\"text-2xl font-bold text-gray-900 mt-8 mb-4\">Understanding JEE Main Pattern</h2><p class=\"text-gray-700 mb-4\">JEE Main is conducted in two sessions - January and April. The exam consists of three sections: Physics, Chemistry, and Mathematics, with 25 questions each. Understanding the exam pattern is crucial for effective preparation.</p><h2 class=\"text-2xl font-bold text-gray-900 mt-8 mb-4\">Subject-wise Preparation Strategy</h2><h3 class=\"text-xl font-semibold text-gray-900 mt-6 mb-3\">Mathematics</h3><ul class=\"list-disc list-inside text-gray-700 mb-4 space-y-2\"><li>Focus on calculus, algebra, and coordinate geometry as they carry maximum weightage</li><li>Practice different types of problems to improve speed and accuracy</li><li>Solve previous year questions to understand the exam pattern</li></ul><h3 class=\"text-xl font-semibold text-gray-900 mt-6 mb-3\">Physics</h3><ul class=\"list-disc list-inside text-gray-700 mb-4 space-y-2\"><li>Understand concepts thoroughly before moving to problem-solving</li><li>Pay special attention to mechanics, electrodynamics, and optics</li><li>Practice numerical problems regularly to build confidence</li></ul><h3 class=\"text-xl font-semibold text-gray-900 mt-6 mb-3\">Chemistry</h3><ul class=\"list-disc list-inside text-gray-700 mb-4 space-y-2\"><li>Organic chemistry requires regular practice and memorization</li><li>Physical chemistry involves numerical problems similar to physics</li><li>Inorganic chemistry requires extensive memorization of facts and reactions</li></ul>",
+      "author": "Dr. Rajesh Kumar",
+      "date": "December 15, 2023",
+      "readTime": "12 min read",
+      "category": "JEE Preparation",
+      "imageUrl": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=600",
+      "featured": true
+    },
+    {
+      "id": "physics-mechanics-guide",
+      "title": "Mastering Physics for JEE: Mechanics Made Simple",
+      "excerpt": "Understanding the fundamental concepts of mechanics is crucial for JEE success. Learn key formulas, problem-solving techniques, and common mistakes to avoid.",
+      "content": "<p>Mechanics forms the foundation of physics and is crucial for JEE Main success. This comprehensive guide covers all essential topics with solved examples and practice problems.</p>",
+      "author": "Prof. Anita Sharma",
+      "date": "December 12, 2023",
+      "readTime": "8 min read",
+      "category": "JEE Preparation",
+      "imageUrl": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400"
+    },
+    {
+      "id": "neet-biology-cells",
+      "title": "NEET Biology: Complete Cell Biology Guide",
+      "excerpt": "Comprehensive coverage of cell structure, organelles, and cellular processes. Includes diagrams, mnemonics, and practice questions for NEET preparation.",
+      "content": "<p>Cell biology is a fundamental topic in NEET Biology. This guide provides detailed coverage of all essential concepts with visual aids and memory techniques.</p>",
+      "author": "Dr. Priya Patel",
+      "date": "December 10, 2023",
+      "readTime": "15 min read",
+      "category": "NEET Preparation",
+      "imageUrl": "https://images.unsplash.com/photo-1576086213959-750689e8c60b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400"
+    },
+    {
+      "id": "upsc-ancient-history",
+      "title": "Ancient Indian History: Complete UPSC Guide",
+      "excerpt": "Detailed coverage of ancient Indian civilizations, dynasties, and cultural developments. Essential for UPSC Prelims and Mains preparation.",
+      "content": "<p>Ancient Indian History is a vast subject that requires systematic study. This guide covers all major topics from Indus Valley Civilization to the Gupta Empire.</p>",
+      "author": "Dr. Vikram Singh",
+      "date": "December 8, 2023",
+      "readTime": "20 min read",
+      "category": "UPSC Preparation",
+      "imageUrl": "https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400"
+    },
+    {
+      "id": "study-techniques-retention",
+      "title": "5 Proven Study Techniques for Better Retention",
+      "excerpt": "Discover scientifically proven study methods including the Pomodoro technique, spaced repetition, and active recall for maximum learning efficiency.",
+      "content": "<p>Effective study techniques can dramatically improve your learning efficiency and retention. This guide explores evidence-based methods used by top performers.</p>",
+      "author": "Dr. Sarah Johnson",
+      "date": "December 5, 2023",
+      "readTime": "10 min read",
+      "category": "Study Tips",
+      "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400"
+    },
+    {
+      "id": "math-shortcuts-competitive",
+      "title": "Mathematics Shortcuts for Competitive Exams",
+      "excerpt": "Time-saving techniques and shortcuts for solving complex mathematical problems quickly and accurately in competitive examinations.",
+      "content": "<p>Speed and accuracy are crucial in competitive exams. This guide teaches you shortcuts and quick methods for solving mathematical problems efficiently.</p>",
+      "author": "Prof. Ravi Kumar",
+      "date": "December 3, 2023",
+      "readTime": "12 min read",
+      "category": "JEE Preparation",
+      "imageUrl": "https://images.unsplash.com/photo-1509228468518-180dd4864904?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400"
+    }
+  ]
+}
